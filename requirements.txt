@@ -39,3 +39,4 @@ waymore==4.1
 Werkzeug==3.0.2
 wheel==0.43.0
 yarl==1.9.4
+gunicorn==22.0.0
