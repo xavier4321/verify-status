@@ -1,8 +1,5 @@
 import requests
-<<<<<<< HEAD
 import os
-=======
->>>>>>> 532c48cd928215779395298e7205ed8aaafc3749
 from flask import Flask, request, jsonify
 
 app = Flask(__name__)
@@ -91,15 +88,10 @@ def filter_response_data(response_data):
 
     
     return filtered_data
-<<<<<<< HEAD
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
     app.run(host='0.0.0.0', port=port)
-=======
-if __name__ == "__main__":
-    app.run(port=5000)
->>>>>>> 532c48cd928215779395298e7205ed8aaafc3749
 
 
 
